@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'utils/util.dart';
 import 'loading.dart';
 import 'app.dart';
+import 'style/color.dart';
 
 void main() => runApp(MaterialApp(
       debugShowCheckedModeBanner: false,
@@ -12,4 +13,4 @@ void main() => runApp(MaterialApp(
     ));
 
 // 自定义主题 #0352DB
-final ThemeData ecThemeDate = ThemeData(primaryColor: string2Color('#0352DB'));
+final ThemeData ecThemeDate = ThemeData(primaryColor: string2Color(primaryColor));

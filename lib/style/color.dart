@@ -1,0 +1,1 @@
+const String primaryColor ='#0352DB';
